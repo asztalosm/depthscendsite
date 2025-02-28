@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    font-size: 10vw;
+    font-size: 8vh;
 }
 
 .character {
@@ -30,6 +30,11 @@ h1 {
     padding-top: 6vh;
     padding-bottom: 2vh;
     display: inline;
+}
+
+.characterholder:active {
+    position: relative;
+    top: -2vh;
 }
 
 .characterholder:hover {
